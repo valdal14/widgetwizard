@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='widgetwizard',
-    version='0.1.1',
+    version='0.1.3',
     author="Valerio D'Alessio - @valdal14",
     author_email="valerio.dalessio@oracle.com",
     license='MIT',
@@ -19,5 +19,8 @@ setuptools.setup(
          "License :: OSI Approved :: MIT License",
          "Operating System :: OS Independent",
      ],
+    dependency_links=[
+        'https://github.com/psf/requests.git'
+    ],
     python_requires='>=3.7.1',
  )
