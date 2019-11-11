@@ -12,7 +12,7 @@ setuptools.setup(
     description="Widget Wizard is a Python automation module that allows you to create widget and extension code base structures for your Oracle Commerce Cloud projects.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/valdal14/occswidgetwizard",
+    url="https://github.com/valdal14/widgetwizard",
     packages=setuptools.find_packages(),
     classifiers=[
          "Programming Language :: Python :: 3",
