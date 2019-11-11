@@ -1,0 +1,38 @@
+{
+  "art_message": {
+    "message": "    )                (                                                                                   \n ( /(    (      (    )\\ )   (  (           (                     )   (  (                          (     \n )\\())   )\\     )\\  (()/(   )\\))(   ' (    )\\ )  (  (     (   ( /(   )\\))(   ' (          )  (     )\\ )  \n((_)\\  (((_)  (((_)  /(_)) ((_)()\\ )  )\\  (()/(  )\\))(   ))\\  )\\()) ((_)()\\ )  )\\  (   ( /(  )(   (()/(  \n  ((_) )\\___  )\\___ (_))   _(())\\_)()((_)  ((_))((_))\\  /((_)(_))/  _(())\\_)()((_) )\\  )(_))(()\\   ((_)) \n / _ \\((/ __|((/ __|/ __|  \\ \\((_)/ / (_)  _| |  (()(_)(_))  | |_   \\ \\((_)/ / (_)((_)((_)_  ((_)  _| |  \n| (_) || (__  | (__ \\__ \\   \\ \\/\\/ /  | |/ _` | / _` | / -_) |  _|   \\ \\/\\/ /  | ||_ // _` || '_|/ _` |  \n \\___/  \\___|  \\___||___/    \\_/\\_/   |_|\\__,_| \\__, | \\___|  \\__|    \\_/\\_/   |_|/__|\\__,_||_|  \\__,_|  \n                                                |___/                                                    \n"
+  },
+
+  "welcome_message": {
+    "welcome": "************************************ .:: OCCS Widget Wizard ::. ******************************************\n* Please have a look at the Oracle Commerce Cloud official documentation on how to get your extension id *\n* For more information please visit: https://goo.gl/i5d6us                                               *\n* Developed by: @valdal14 - https://twitter.com/valdal14                                                 *\n**********************************************************************************************************\n"
+  },
+
+  "extension": {
+    "message": "The extension id must be a string made of 36 characters\nFor more information please visit: https://goo.gl/i5d6us\nPlease, try again\n"
+  },
+
+  "extension_name": {
+    "message": "Extension name must be a string with at least 5 characters\n"
+  },
+
+  "extension_desc": {
+    "message": "Extension description must be a string with at least 5 characters\n"
+  },
+
+  "developer_id": {
+    "message": "The developer id must be a string made of at least 8 numeric characters\nFor more information please visit: https://goo.gl/i5d6us\nPlease, try again\n"
+  },
+
+  "developer_name": {
+    "message": "Developer name must be a string with at least 5 characters\n"
+  },
+
+  "ext_location": {
+    "message": "Invalid destination path, please try again\n"
+  },
+
+  "js_code": {
+    "code": "/**\n * Create with OCCS-Extension-Wizard\n * Developed by @valdal14\n * valerio.dalessio@oracle.com\n */\n\ndefine(// Dependencies\n[\"jquery\", \"knockout\"], // Module Implementation\nfunction(ko) {\n  // We recommend enabling strict checking mode\n  \"use strict\";\n\n  // Private variables and functions can be defined here...\n  var SOME_CONSTANT = 1024;\n\n  var privateMethod = function() {\n    // ...\n  };\n\n  return {\n    // Widget JS\n    // Some member variables...\n    textInput: ko.observable(),\n    // Some public methods...\n    doSomethingWithInput: function() {\n      //...\n    }\n  };\n});"
+  }
+
+}
