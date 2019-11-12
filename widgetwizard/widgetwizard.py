@@ -141,7 +141,7 @@ def welcome_message():
     Prints out the welcome message
     :return:
     """
-    with open('config.json') as json_data_file:
+    with open("config.json") as json_data_file:
         global data
         data = json.load(json_data_file)
         print(data["art_message"]["message"])
