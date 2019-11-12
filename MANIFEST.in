@@ -1,1 +1,2 @@
-recursive-include config *
+recursive-include config.json
+include *.json
