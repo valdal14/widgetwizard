@@ -142,7 +142,6 @@ def welcome_message():
     :return:
     """
     json_file = os.path.join(os.path.dirname(__file__), 'config.json')
-    print(json_file)
     with open(json_file) as json_data_file:
         global data
         data = json.load(json_data_file)
