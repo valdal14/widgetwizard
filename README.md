@@ -1,6 +1,6 @@
 # OCCS Widget Wizard
 
-![Start](https://github.com/valdal14/widgetwizard/blob/master/images/bannerGitHubNew.jpg?raw=true "OCCS Widget Wizard")
+![Start](https://github.com/valdal14/widgetwizard/blob/master/images/bannerGitNew.jpg?raw=true "OCCS Widget Wizard")
 
 ## Installation and usage
 
