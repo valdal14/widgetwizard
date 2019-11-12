@@ -2,15 +2,12 @@
 
 ![Start](https://github.com/valdal14/widgetwizard/blob/master/images/bannerGitHub.png?raw=true "OCCS Widget Wizard")
 
-<pre>
-   <div align="left">
-    <p></p>
-    <code> >>> pip3 install widgetwizard</code><br>
-    <code> >>> python3</code><br>
-    <code> >>> <strong>import widgetwizard.widgetwizard as ww</strong></code><br>
-    <code> >>> ww.run_script()</code>
-    </div>
-</pre>
+## Installation and usage
+
+<code> >>> pip3 install widgetwizard</code><br>
+<code> >>> python3</code><br>
+<code> >>> <strong>import widgetwizard.widgetwizard as ww</strong></code><br>
+<code> >>> ww.run_script()</code>
 
 ## Description
 
