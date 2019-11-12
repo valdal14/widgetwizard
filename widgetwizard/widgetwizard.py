@@ -534,10 +534,3 @@ def run_script():
         print("\n")
         print("Thanks for using OCCS Widget Wizard")
 
-
-def main():
-    run_script()
-
-
-if __name__ == "__main__":
-    main()
