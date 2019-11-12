@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='widgetwizard',
-    version='0.8.7',
+    version='0.8.8',
     author="Valerio D'Alessio - @valdal14",
     author_email="valerio.dalessio@oracle.com",
     license='MIT',
