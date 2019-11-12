@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='widgetwizard',
-    version='0.8.9',
+    version='0.9.0',
     author="Valerio D'Alessio - @valdal14",
     author_email="valerio.dalessio@oracle.com",
     license='MIT',
@@ -25,6 +25,7 @@ setup(
           'requests',
       ],
     packages=find_packages(),
+    include_package_data=True,
     python_requires='>=3.7.1',
-    data_file={'widgetwizard': ['config.json']},
+    package_data={'widgetwizard': ['config.json']},
 )
