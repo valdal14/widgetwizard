@@ -25,7 +25,6 @@ setup(
           'requests',
       ],
     packages=find_packages(),
-    include_package_data=True,
     python_requires='>=3.7.1',
-    package_data={'widgetwizard': ['config.json']},
+    data_file={'widgetwizard': ['config.json']},
 )
