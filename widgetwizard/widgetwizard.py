@@ -175,13 +175,9 @@ def set_extension_id():
     :return: string
     """
     ext_id = input("Enter your extension id: ")
-    while True:
-        if len(ext_id) is 36:
-            break
-        else:
-            print(data["extension"]["message"])
-            ext_id = input("Insert your extension id: ")
-
+    while len(ext_id) < 36:
+        print(data["extension"]["message"])
+        ext_id = input("Enter your extension id: ")
     return ext_id
 
 
@@ -194,7 +190,7 @@ def set_developer_id():
     while True:
         try:
             if len(dev_id) >= 8 and isinstance(int(dev_id), int):
-                break
+                return dev_id
             else:
                 print(data["developer_id"]["message"])
                 dev_id = input("Enter your developer id: ")
@@ -202,8 +198,6 @@ def set_developer_id():
             print("There was a problem registering your developer id: {}".format(error))
             print("We have selected a brand new id for you")
             return "123456789"
-
-    return dev_id
 
 
 def set_created_by():
@@ -214,12 +208,10 @@ def set_created_by():
     dev_name = input("Enter the developer name: ")
     while True:
         if len(dev_name) >= 5:
-            break
+            return dev_name
         else:
             print(data["developer_name"]["message"])
             dev_name = input("Enter your developer name: ")
-
-    return dev_name
 
 
 def set_extension_name():
@@ -230,12 +222,10 @@ def set_extension_name():
     ext_name = input("Enter the extension name: ").lower().replace(" ", "")
     while True:
         if len(ext_name) >= 5:
-            break
+            return ext_name
         else:
             print(data["extension_name"]["message"])
             ext_name = input("Enter the extension name: ")
-
-    return ext_name
 
 
 def set_extension_desc():
@@ -246,12 +236,10 @@ def set_extension_desc():
     ext_desc = input("Enter the extension description: ")
     while True:
         if len(ext_desc) >= 5:
-            break
+            return ext_desc
         else:
             print(data["extension_desc"]["message"])
             ext_desc = input("Enter the extension description: ")
-
-    return ext_desc
 
 
 def verify_ext_folder(path_destination):
